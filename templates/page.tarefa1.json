@@ -1,11 +1,18 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-page"
-        },
-        "tarefa1": {
-            "type": "tarefa1"
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
     },
-    "order": ["main", "tarefa1"]
+    "tarefa1": {
+      "type": "tarefa1",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tarefa1"
+  ]
 }
